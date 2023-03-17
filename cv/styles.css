@@ -1,0 +1,156 @@
+/* .img {
+  margin-right: 2em;
+}
+.table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin: -10px;
+}
+.td {
+  padding: -5em;
+}*/
+body {
+  color: rgb(29, 57, 49);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: blueviolet;
+}
+.avatar {
+  width: 250px;
+  border-radius: 40%;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+  margin-right: 2em;
+  padding: 0.3em;
+}
+.info {
+  /* margin-bottom: 20px; */
+  margin: 30px 0px 40px 90px;
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .aboutme {
+    line-height: 10px;
+  }
+}
+
+/*Box model*/
+/* .social {
+    background: rgb(241, 232, 232);
+    border: rgb(39, 39, 61) solid 3px;
+    border-bottom-style: dotted;
+    /* padding: 15px;
+    padding: 15px 40px;
+    padding: 15px 20px 25px 30px;*/
+/* padding: 2px 20px 10px 20px;
+  }*/
+.container {
+  width: 60%;
+  margin: auto;
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+  text-align: center;
+}
+.card {
+  padding: 2px 20px 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+/* .list li {
+    color: #86898f;
+    margin-bottom: px;
+    border-bottom: 1px solid rgb(200, 15, 15);
+  } */
+/* * {
+    padding: 0;
+    margin: 0;
+  } */
+.hellopage {
+  margin-top: 45px;
+}
+.table {
+  width: 100%;
+}
+.aboutme {
+  line-height: 7px;
+  margin-bottom: 30px;
+}
+/* .lili li {
+    border-bottom: 2px rgb(187, 152, 152) solid;
+  } */
+.form-group {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+}
+.form-group input,
+textarea {
+  border: none;
+  height: 2em;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+h4 {
+  margin: 0;
+}
+.info-text {
+  margin: ;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  padding: 9px 15px;
+  background: black;
+  width: 30%;
+  border-radius: 20px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/*position*/
+
+.position {
+}
+.box {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+  border-radius: 50%;
+}
