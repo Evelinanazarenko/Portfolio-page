@@ -104,12 +104,11 @@ h1 {
 
 .img-box {
   background-color: #ebebeb;
-  padding: 15px 0px;
+  padding: 20px;
   width: auto;
 }
 
 .img-first-page {
-  max-width: 80% !important;
   box-shadow: var(--box-shadow);
 }
 
@@ -124,6 +123,10 @@ h1 {
   background-color: blue !important;
   color: #ebebeb !important;
   opacity: 80%;
+}
+
+.btn-width {
+  max-width: 100%;
 }
 
 .img3-width {
