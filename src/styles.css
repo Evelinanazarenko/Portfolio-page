@@ -18,7 +18,7 @@
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 45px !important;
 }
 
 .blueUkr {
@@ -29,7 +29,7 @@ h1 {
   color: yellow;
 }
 .firstPageH2 {
-  display: inline;
+  display: inline-block;
   box-shadow: var(--box-shadow);
   width: max-content;
   text-align: center;
@@ -38,12 +38,13 @@ h1 {
   font-weight: 600;
   opacity: 70%;
   font-size: 23px;
+  margin-top: 10px;
 }
 
 .buttoms {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 15px;
   font-size: 20px;
 }
 
@@ -103,8 +104,8 @@ h1 {
 
 .img-box {
   background-color: #ebebeb;
-  padding: 30px;
-  max-height: min-content;
+  padding: 15px 0px;
+  width: auto;
 }
 
 .img-first-page {
@@ -127,4 +128,28 @@ h1 {
 
 .img3-width {
   max-width: 315px !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  .myName {
+    font-size: 38px;
+  }
+  .firstPageH2 {
+    font-size: 18px;
+  }
+  .buttoms {
+    font-size: 18px;
+  }
+  .img-box {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 19px !important;
+  }
 }
