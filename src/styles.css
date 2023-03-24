@@ -21,6 +21,9 @@ h1 {
   font-size: 45px !important;
 }
 
+p {
+  font-size: 20px;
+}
 .blueUkr {
   color: blue;
 }
@@ -129,10 +132,6 @@ h1 {
   max-width: 100%;
 }
 
-.img3-width {
-  max-width: 315px !important;
-}
-
 @media (max-width: 768px) {
   h1 {
     font-size: 30px !important;
@@ -149,10 +148,22 @@ h1 {
   .img-box {
     padding: 15px;
   }
+  p {
+    font-size: 15px;
+  }
+  .footer-h2 {
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 1024px) {
-  p {
-    font-size: 19px !important;
+@media (min-width: 576px) {
+  .discr-of-work {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img3-width {
+    max-width: 315px !important;
   }
 }
